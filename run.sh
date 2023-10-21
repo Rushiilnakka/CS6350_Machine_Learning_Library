@@ -1,11 +1,16 @@
 #!/bin/sh
 
-echo "Results for car dataset"
-jupyter "ML.ipynb"
+echo "Results for AdaBoost Algorithm"
+python3 HW_2_2a.ipynb
 
-echo "Results for bank dataset - unknown"
-jupyter "Question_3.ipynb"
+echo "Results for Bagged Trees Algorithm"
+python3 HW_2_2b.ipynb
 
+echo "Results for bias and variance decomposition"
+python3 HW_2_2b.ipynb
 
-echo "Results for car dataset"
-jupyter "Question_3.ipynb"
+echo "Results for random forest algorithm"
+python3 2d.ipynb
+
+echo "Results for bias and variance, squared error decomposition"
+python3 HW_2_2b.ipynb
